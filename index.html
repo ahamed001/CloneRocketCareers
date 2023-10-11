@@ -10,9 +10,9 @@
 <body>
 
     <!--Navbar-->
-    <div>
+    <div class="navbar">
         <div>
-            <h1>Startup 3</h1>
+            <h2>Startup 3</h2>
         </div>
         <div>
             <ul>
@@ -20,46 +20,52 @@
                 <li>Prices</li>
                 <li>Blog</li>
                 <li>Feedback</li>
-                <li>Purchases</li>
+                <li class="purchase-btn">Purchase</li>
             </ul>
         </div>
     </div>
 
     <!--Content-->
-    <div>
-        <div>
-            <h1>Generate Awesome Web Pages</h1>
-        </div>
-        <div>
-            <p>The most important part of the Startup is the samples. 
-                The samples form a set of 25 usable pages you can use as is or you can add new blocks.
-            </p>
-        </div>
-        <div>
-            <button>
-                Learn More
-            </button>
-        </div>
-    </div>
-
-    <!--Signup-->
-
-    <div>
-        <h1>Sign Up Now</h1>
-        <form>
-            <input type="email" placeholder="Your email">
-            <input type="password" placeholder="Your password">
-            
-            <div> 
-                <input type="checkbox">
-                I agree to the terms of Service
+    <div class="content">
+        <div class="content-left">
+            <div>
+                <h1 class="left-text1">Generate <br>Awesome Web <br>Pages</h1>
             </div>
-            <button type="submit">Sign In</button>
+            <div>
+                <p class="left-text2">
+                    The most important part of the Startup is the samples. 
+                    The samples form a set of 25 usable pages you can use as is or you can add new blocks.
+                </p>
+            </div>
+            <div>
+                <button class="learn-btn"> Learn More </button>
+            </div>
+        </div>
 
-        </form>
-        
-        <button type="submit">Login via Twitter</button>
-        <p>Do you have an Account? <span>Sign In</span></p>
+        <!--Signup-->
+
+        <div class="content-right">
+            <h1 class="signupnow">Sign Up Now</h1>
+            <form>
+                <input type="email" placeholder="Your email">
+                <input type="password" placeholder="Your password">
+                
+                <div class="terms"> 
+                    <input type="checkbox">
+                    <p>I agree to the terms of Service</p>
+                </div>
+                <button type="submit" class="signin-btn">Sign In</button>
+            </form>
+            <div class="line-container">
+                <hr class="line">
+                <span class="or">or</span>
+                <hr class="line">
+            </div>
+            
+            
+            <button type="submit" class="login-btn">Login via Twitter</button>
+            <p class="account">Do you have an Account? <span class="signin">Sign In</span></p>
+        </div>
     </div>
 
 </body>

@@ -1,4 +1,180 @@
+html{
+    font-family: sans-serif;
+}
 body{
     background-color: #23297A;
     color: white;
+}
+
+.navbar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding: 10px 25px;
+}
+
+li:hover{
+    color: #C6C6C6;
+}
+
+.purchase-btn{
+    display: flex;
+    align-items: center;
+    background-color: #FF1493;
+    border-radius: 50px;
+    height: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.purchase-btn:hover{
+    background-color: #fd036f;
+    color: white;
+}
+
+.content{
+    width: 70%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.left-text1{
+    font-size: 50px;
+}
+
+.left-text2{
+    font-size: 18px;
+    padding: 10px 30% 10px 0;
+}
+
+.learn-btn{
+    color: white;
+    background-color: #FF1493;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 0 30px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+}
+
+.learn-btn:hover{
+    background-color: #fd036f;
+    color: white;
+}
+
+.content-right{
+    background-color: whitesmoke;
+    width: 380px;
+    text-align:center;
+    border-radius: 2%;
+    margin: auto;
+    margin-right: 0;
+}
+
+.signupnow{
+    color: #333;
+    text-align: center;
+    font-size: 33px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > input{
+    display: block;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    padding: 0 0 0 20px;
+    margin: 10px 0;
+}
+
+.terms{
+    display: flex;
+    color: gray;
+    font-size: 15px;
+    width: 68%;
+}
+
+.signin-btn{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #0000A3;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+}
+
+.signin-btn:hover{
+    background-color: #000075;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    border: none;
+    border-top: 2px solid #ccc; 
+    width: 27%; 
+    display: inline-block;
+}
+
+.or {
+    margin: 0 -60px;
+    color: #ccc;
+} 
+
+.login-btn{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #26a7de;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+}
+
+.login-btn:hover{
+    background-color: #2b81a5;
+}
+
+.account{
+    color: gray;
+    font-size: 12px;
+    margin: 10px 0 30px 0;
+}
+
+.signin{
+    color: #189AB4;
 }
